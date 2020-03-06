@@ -92,6 +92,7 @@ p.description {
 .carosuel {
   display: flex;
   height: 300px !important;
+  background-color: black;
 }
 
 .carosuel-item {
@@ -99,7 +100,7 @@ p.description {
   margin: 0 auto;
 }
 
-@media screen and (max-width:40.0rem) {
+@media screen and (max-width:640px) {
 
   .carousel {
     height: 550px !important;
@@ -107,6 +108,25 @@ p.description {
 
   .carousel img {
     height: 550px !important;
+  }
+}
+
+@media screen and (max-width:5000px) {
+
+  .carousel {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; 
+  }
+
+  .carousel img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; 
   }
 }
 
