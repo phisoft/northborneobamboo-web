@@ -413,8 +413,15 @@ WHY US
 .why_us {
   padding: 0 !important;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
 }
+
+@media screen and (min-width:768px) {
+
+  .fa-thumbs-up {
+    margin-top: 0 !important;
+  }
+}
+
 
 /*----------------------------------
 CONTACT US
@@ -581,4 +588,3 @@ footer {
 		font-size: auto;
   }
 }
- 
