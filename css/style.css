@@ -451,13 +451,39 @@ INTERESTING FACT
   text-align: center !important;
 }
 
+.fa-tree {
+  font-size: 40px !important; 
+  color: rgb(45, 114, 45); 
+  margin-bottom: 30px;
+  text-align: center !important;
+}
+
+.fa-users {
+  font-size: 40px !important; 
+  color: rgb(45, 114, 45); 
+  margin-bottom: 30px;
+  text-align: center !important;
+}
+
+.fa-thumbs-up {
+  font-size: 40px !important; 
+  color: rgb(45, 114, 45); 
+  margin-bottom: 30px;
+  text-align: center !important;
+}
+
 p.fact {
   margin-bottom: 30px;
+  margin-right: 0 !important;
 }
 
 /*----------------------------------
 WHY US
 -----------------------------------*/
+
+.why_us {
+  padding: 0 !important;
+}
 
 /*----------------------------------
 CONTACT US
@@ -575,7 +601,8 @@ footer{
 .footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
-	padding: 0;
+  padding: 0;
+  font-size: small;
 }
  
 .footer-distributed .footer-links a{
