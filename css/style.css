@@ -35,12 +35,8 @@ section {
 }
 
 .section-bg {
-  background-color: #cee0db;
-  color: black;
-}
-
-.section-bg p {
-  font-family: "Lato", sans-serif;
+  background-color:rgba(170, 211, 185, 0.85);
+  color: rgb(98, 98, 98);
 }
 
 .section-title {
@@ -65,7 +61,7 @@ section {
 
 h4.title {
   text-align: center;
-  color: #007bff;
+  color: #103966e1 !important;
 }
 
 p.description {
