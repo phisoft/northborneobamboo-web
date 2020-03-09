@@ -239,8 +239,8 @@ p.description {
 #nbbamboo h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 25px;
-  font-weight: 300;
+  margin-top: 10px;
+  font-size: 15px !important;
 }
 
 @media screen and (min-width:641px) {
@@ -340,7 +340,11 @@ p.description {
 
 p.des {
   text-align: justify !important;
-  font-size: 18px;
+  font-size: 15px;
+}
+
+h3.main {
+  font-size: 19px;
 }
 
 .about ul {
@@ -353,7 +357,7 @@ p.des {
 }
 
 .about ul i {
-  font-size: 20px;
+  font-size: 15px;
   padding-right: 0px;
   color: #70b9b0;
 }
@@ -377,6 +381,19 @@ img {
   color: rgb(45, 114, 45); 
   margin-right: 20px;
 }
+
+@media (min-width: 1000px){
+  h3.main {
+    font-size: 25px;
+  }
+
+  p.des {
+    text-align: justify !important;
+    font-size: 19px;
+  }
+  
+}
+
 
 /*--------------------------------------------------------------
 # Bamboo
