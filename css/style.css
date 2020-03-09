@@ -5,7 +5,7 @@ body
   width: 100%;
   height: 100%;
   color: #777 !important;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fira Sans', sans-serif !important;
 }
 
 /*----------------------------------
@@ -19,10 +19,6 @@ a {
 a:hover {
   color: #00d3b8;
   text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family:"Lato", sans-serif;
 }
 
 #main {
@@ -44,15 +40,6 @@ section {
   margin-bottom: 50px;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 300;
-  color: #555;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 50px;
-  margin-top: 50px !important;
-}
-
 .section-closing p {
   margin-bottom: 0px;
   text-align: center;
@@ -69,6 +56,37 @@ p.description {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width:640px) {
+
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 50px;
+    margin-top: 50px !important;
+  }
+}
+
+@media screen and (min-width:641px) {
+
+  .section-title h2 {
+    font-size: 64px;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 50px;
+    margin-top: 50px !important;
+  }
+}
+
+  .carousel img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; 
+  }
+}
+
 
 /*----------------------------------
   NAVIGATION BAR
@@ -76,13 +94,27 @@ p.description {
 
 .navbar-nav {
   margin-left: 50px;
-  font-family: "Open Sans", sans-serif;
 }
 
-.nav-link {
-  margin-right: 50px;
-  font-size: large;
-  text-align: center;
+
+@media screen and (max-width:763px) {
+
+  .nav-link {
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width:764px) {
+
+  .nav-link {
+    margin-left: 30px;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 /*----------------------------------
@@ -111,7 +143,7 @@ p.description {
   }
 }
 
-@media screen and (max-width:5000px) {
+@media screen and (min-width:641px) {
 
   .carousel {
     display: block;
@@ -207,17 +239,17 @@ p.description {
 #nbbamboo h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width:641px) {
   #nbbamboo {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   #nbbamboo h1 {
     font-size: 28px;
     line-height: 36px;
@@ -262,27 +294,32 @@ p.description {
   padding: 0 20px 20px;
 }
 
-.text > h3{
-  font-size: medium;
-  margin-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@media (max-width: 1000px){
+@media (min-width: 1000px){
   .grid{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin: 0;
+  }
+
+  .text > h3{
+    font-size: 30px;
+    margin-top: 20px;
   }
 }
 
-@media (max-width: 660px){
+@media (max-width: 999px){
   .grid{
     grid-template-columns: repeat(2, 1fr);
     margin: 0;
   }
+
+  .text > h3{
+    font-size: 20px;
+    margin-top: 15px;
+  }
 }
 
-@media (max-width: 500px){
+@media (max-width: 659px){
   .grid{
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
@@ -301,12 +338,9 @@ p.description {
   color: #777;
 }
 
-.about h3 {
-  font-weight: 300 !important;
-}
-
-.about p {
-  text-align: center;
+p.des {
+  text-align: justify !important;
+  font-size: 18px;
 }
 
 .about ul {
@@ -320,7 +354,7 @@ p.description {
 
 .about ul i {
   font-size: 20px;
-  padding-right: 4px;
+  padding-right: 0px;
   color: #70b9b0;
 }
 
@@ -352,13 +386,6 @@ img {
   text-align: center;
 }
 
-.fa-temperature-low {
-  font-size: 40px !important; 
-  color: rgb(124, 155, 124); 
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
 .bamboo .title {
   font-weight: 700;
   margin-bottom: 15px;
@@ -366,9 +393,8 @@ img {
   text-transform: uppercase;
 }
 
-.bamboo .title a {
-  color: #343a40;
-  transition: 0.3s;
+.bamboo p {
+  font-size: 18px;
 }
 
 .bamboo .icon-box:hover .title a {
@@ -377,7 +403,7 @@ img {
 
 .bamboo .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*----------------------------------
@@ -416,10 +442,10 @@ INTERESTING FACT
   text-align: center !important;
 }
 
-p.fact {
+p.description {
   margin-bottom: 30px;
   margin-right: 0 !important;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px !important;
 }
 
 /*----------------------------------
@@ -428,7 +454,10 @@ WHY US
 
 .why_us {
   padding: 0 !important;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.title {
+  font-size: 18px !important;
 }
 
 @media screen and (min-width:768px) {
