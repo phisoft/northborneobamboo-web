@@ -100,7 +100,9 @@ p.description {
     margin-right: 20px;
     font-size: 15px;
     text-align: center;
+    font-family: 'Fira Sans', sans-serif !important;;
     text-transform: uppercase;
+    letter-spacing: 2px;
   }
   
 }
@@ -111,7 +113,6 @@ p.description {
     margin-left: 25px;
     font-size: 15px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -124,7 +125,6 @@ p.description {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
   }
 }
 
@@ -641,7 +641,7 @@ footer {
  
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Ubuntu', sans-serif;
+	font: normal 36px 'Fira Sans', sans-serif !important;
 	margin: 0;
 }
  
@@ -668,9 +668,8 @@ footer {
 }
  
 .footer-distributed .footer-company-name{
-	color:  #d3d5db;
+	color:  #ffffff !important;
 	font-size: 14px;
-	font-weight: normal;
   margin: 0;
   font-family: 'Fira Sans', sans-serif !important;
 }
