@@ -30,7 +30,7 @@ section {
 }
 
 .section-bg {
-  background-color:rgba(149, 229, 179, 0.85);
+  background-color:rgba(179, 230, 198, 0.85);
   color: rgb(98, 98, 98);
 }
 
@@ -212,6 +212,44 @@ p.description {
   margin-bottom: -80px;
   width: 100%;
   margin-top: 0px !important;
+}
+
+#bottom_text {
+  height: 400px;
+  background: url('../images/back2.jpg');
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -100px;
+  width: 100%;
+  margin-top: 0px !important;
+}
+
+#bottom_text h2 {
+  color: rgb(104, 104, 104);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 30px !important;
+  line-height: 1.5;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  width: 50%;
+}
+
+.bottom_text-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  width: 100%;
 }
 
 #nbbamboo:before {
@@ -400,7 +438,6 @@ p.description {
 
 .about {
   color: #777;
-  background-image: url('../images/back1.jpg');
 }
 
 p.des {
@@ -535,9 +572,6 @@ p.description {
   font-size: 18px !important;
 }
 
-.fact {
-  background-image: url(../images/back1.jpg);
-}
 /*----------------------------------
 WHY US
 -----------------------------------*/
@@ -627,14 +661,18 @@ footer {
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color:  inherit;
+  color:  inherit;
+  font-family: 'Fira Sans', sans-serif !important;
+  letter-spacing: 3px;
+}
 }
  
 .footer-distributed .footer-company-name{
-	color:  #8f9296;
+	color:  #d3d5db;
 	font-size: 14px;
 	font-weight: normal;
-	margin: 0;
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif !important;
 }
  
  
