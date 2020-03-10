@@ -26,8 +26,7 @@ a:hover {
 }
 
 section {
-  padding: 10px 0;
-  margin-bottom: 30px !important;
+  padding: 10px 10px 10px 10px;
 }
 
 .section-bg {
@@ -401,6 +400,7 @@ p.description {
 
 .about {
   color: #777;
+  background-image: url('../images/back1.jpg');
 }
 
 p.des {
@@ -535,6 +535,9 @@ p.description {
   font-size: 18px !important;
 }
 
+.fact {
+  background-image: url(../images/back1.jpg);
+}
 /*----------------------------------
 WHY US
 -----------------------------------*/
@@ -563,6 +566,13 @@ h5 {
   margin: 10px 10px 10px 10px;
   font-size: 20px !important; 
   color: rgb(45, 114, 45);
+}
+
+/*----------------------------------
+BOTTOM
+-----------------------------------*/
+bot {
+  background: url('../images/back2.jpg');
 }
 
 /*----------------------------------
