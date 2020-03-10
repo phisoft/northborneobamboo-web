@@ -255,13 +255,11 @@ p.description {
   line-height: 1.5;
 }
 
-@media screen and (min-width:641px) {
+@media (min-width: 641px) {
   #nbbamboo {
     background-attachment: fixed;
   }
-}
 
-@media (min-width: 641px) {
   #nbbamboo h1 {
     font-size: 45px;
     line-height: 36px;
