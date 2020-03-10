@@ -26,12 +26,12 @@ a:hover {
 }
 
 section {
-  padding: 15px 0;
+  padding: 10px 0;
   margin-bottom: 30px !important;
 }
 
 .section-bg {
-  background-color:rgba(170, 211, 185, 0.85);
+  background-color:rgba(149, 229, 179, 0.85);
   color: rgb(98, 98, 98);
 }
 
