@@ -649,7 +649,7 @@ footer {
 }
  
 .footer-distributed .footer-left{
-	width: 15%;
+	width: 20%;
 }
  
 .footer-distributed h3{
@@ -689,7 +689,7 @@ footer {
 }
 
 .footer-distributed .footer-center{
-	width: 50%;
+	width: 40%;
 }
 
 .footer-distributed .footer-center h3{
@@ -794,7 +794,7 @@ footer {
  
 }
  
-@media (max-width: 880px) {
+@media (max-width: 900px) {
  
 	.footer-distributed {
 		font: bold 14px sans-serif;
