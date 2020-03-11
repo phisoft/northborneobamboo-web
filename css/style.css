@@ -676,8 +676,7 @@ footer {
 	text-decoration: none;
   color:  inherit;
   font-family: 'Fira Sans', sans-serif !important;
-  letter-spacing: px;
-  font-size: 15px;
+  font-size: 13px;
 }
  
 .footer-distributed .footer-company-name{
@@ -700,8 +699,8 @@ footer {
   margin:0;
   margin-bottom: 30px;
   font-family: 'Fira Sans', sans-serif !important;
-  text-transform: uppercases;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
   font-size: 18px !important;
   font-weight: bold !important;
 }
@@ -772,6 +771,8 @@ footer {
   letter-spacing: 1px;
   margin-bottom: 30px !important;
   font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
  
 .footer-distributed .footer-icons{
