@@ -44,15 +44,16 @@ section {
   color: #555;
   margin-bottom: 50px;
   margin-top: 30px !important;
-  border-bottom: 2px solid #87888b;
   letter-spacing: 5px !important;
   text-transform: uppercase;
+  border-bottom: dimgray 2px solid;
 }
 
 .section-closing p {
   margin-top: 20px;
   text-align: center;
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 h4.title {
@@ -110,7 +111,6 @@ p.description {
 /*----------------------------------
   CAROUSEL
 -----------------------------------*/
-
 .carousel {
   display: block;
   height: auto;
@@ -177,7 +177,6 @@ p.description {
   background-position: top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -80px;
   width: 100%;
   margin-top: 0px !important;
 }
@@ -363,7 +362,9 @@ p.description {
 /*----------------------------------
   OUR PRODUCTS
 -----------------------------------*/
-
+#products {
+  background-color: rgb(255, 255, 255);
+}
 .grid {
   margin: 20px;
   display: grid;
@@ -444,8 +445,14 @@ p.description {
   ABOUT US
 -----------------------------------*/
 
-.about {
-  color: #777;
+#about {
+  color: whitesmoke;
+  background-image: url('../images/welcome.jpg');
+  opacity: 90%;
+}
+
+#about:hover {
+  opacity: 100%;
 }
 
 h3.main {
@@ -530,6 +537,10 @@ img {
   text-transform: uppercase;
 }
 
+h4.title:hover {
+  color: rgb(51, 93, 56) !important;
+}
+
 .bamboo p {
   font-size: 18px;
 }
@@ -544,6 +555,21 @@ img {
 }
 
 /*----------------------------------
+  QUOTE
+-----------------------------------*/
+#quote {
+  background-color: rgb(223, 243, 243);
+}
+
+.section-closing h2 {
+  padding-bottom: 30px;
+  font-size: 20px !important;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/*----------------------------------
 INTERESTING FACT
 -----------------------------------*/
 
@@ -551,28 +577,7 @@ INTERESTING FACT
   text-align: center;
 }
 
-.fa-globe {
-  font-size: 40px !important; 
-  color: rgb(45, 114, 45); 
-  margin-bottom: 30px;
-  text-align: center !important;
-}
-
-.fa-tree {
-  font-size: 40px !important; 
-  color: rgb(45, 114, 45); 
-  margin-bottom: 30px;
-  text-align: center !important;
-}
-
-.fa-users {
-  font-size: 40px !important; 
-  color: rgb(45, 114, 45); 
-  margin-bottom: 30px;
-  text-align: center !important;
-}
-
-.fa-thumbs-up {
+.fa-globe, .fa-tree, .fa-users, .fa-thumbs-up {
   font-size: 40px !important; 
   color: rgb(45, 114, 45); 
   margin-bottom: 30px;
@@ -591,6 +596,16 @@ WHY US
 
 .why_us {
   padding: 0 !important;
+}
+
+.why_comm{
+  width:200px;
+  height: 150px;
+}
+
+.why_eco{
+  width: 150px;
+  height: 150px;
 }
 
 p.title {
@@ -649,7 +664,7 @@ footer {
 }
  
 .footer-distributed .footer-left{
-	width: 15%;
+	width: 20%;
 }
  
 .footer-distributed h3{
@@ -685,11 +700,10 @@ footer {
   margin-top: 50px;
   font-family: 'Fira Sans', sans-serif !important;
   letter-spacing: 1px;
-  text-align: center;
 }
 
 .footer-distributed .footer-center{
-	width: 50%;
+	width: 40%;
 }
 
 .footer-distributed .footer-center h3{
@@ -794,7 +808,7 @@ footer {
  
 }
  
-@media (max-width: 880px) {
+@media (max-width: 900px) {
  
 	.footer-distributed {
 		font: bold 14px sans-serif;

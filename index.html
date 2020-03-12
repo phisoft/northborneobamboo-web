@@ -81,11 +81,11 @@
         </div>
 
         <div class="carousel-item">
-          <img src="images/carou1.jpg" alt="...">
+          <img src="images/carou2.jpg" alt="...">
         </div>
 
         <div class="carousel-item">
-          <img src="images/bamboo9.jpg" alt="...">
+          <img src="images/carou1.jpg" alt="...">
         </div>
       </div>
 
@@ -119,7 +119,7 @@
   ----------------------------------->
   <body>
 
-  <section id="products" class="products"></section>
+  <section id="products" class="products">
     <div class="container">
       <main id="main" style="margin-top: 100px;">
         <div class="section-title">
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-      <main class="grid">
+      <main class="grid"  style="padding-bottom: 100px;">
         <article>
           <img src="images/card1.jpg" height="300" width="230">
           <div class="text">
@@ -153,16 +153,15 @@
           </div>
         </article>
       </main>
-
-
+    </section>
   <!----------------------------------
     ABOUT US
   ----------------------------------->
-  <section id="about" class="about"></section>
+  <section id="about" class="">
   <div class="container">
     <main id="main" style="margin-top: 100px;">
       <div class="section-title">
-        <h2>About Us</h2>
+        <h2 style="color: whitesmoke;">About Us</h2>
       </div>
     </div>
 
@@ -184,6 +183,7 @@
         </div>
     </div>
   </div>
+</section>
 
   <section id="bamboo" class="bamboo section-bg">
     <div class="container">
@@ -232,15 +232,18 @@
           beautiful home. </p>
       </div>
     </div>
-
-    <div class="section-closing">
-      <div>
-        <p>With the shake that Sabah experienced in 2015, durability has since come to play as well. 
-          Better to be safe than sorry!
-        </p>
-      </div>
-    </div>
   </section>
+
+  <section id="quote" class="section-closing">
+    <div class="container">
+      <main id="main">
+          <h2><q>With the shake that Sabah experienced in 2015, durability has since come to play as well. 
+              Better to be safe than sorry!</q>
+          </h2>
+      </main>
+    </div>
+    </section>
+  
  
 
 <!----------------------------------
@@ -250,51 +253,52 @@
 
 <div class="container">
   <main id="main" style="margin-top: 100px;">
-    <div class="row">
-      
-      <div class="col-lg-6 col-md-6">
-        <main id="main">
-          <div class="section-title">
-            <h2>Interesting Facts</h2>
-            <div class="row">
-              <div class="col-lg-5 col-md-6 icon-box">
-                  <i class="fa fa-globe"></i>
-                  <p class="description">All plants of one bamboo species will develop 
-                    flowers at the same time, no matter where they are located in the world.</p>
-              </div>
-              <div class="col-lg-5 col-md-6 icon-box" style="text-align: center;">
-                <i class="fa fa-tree"></i>
-                <p class="description" style="margin-bottom: 30px;">Bamboo can survive over 120 years in the wild. </p>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
+   
+    <div class="section-title">
+      <h2>Interesting Facts</h2>
 
-      <!----------------------------------
-        WHY US
-      ----------------------------------->
-      
-      <div class="col-lg-6 col-md-6 back">
-        <section id="why_us" class="why_us"></section>  
-        <main id="main">
-            <div class="section-title">
-              <h2>Why Us</h2>
-              <div class="row">
-                <div class="col-lg-5 col-md-6 icon-box">
-                  <i class="fa fa-users"></i>
-                  <p class="title">Empowering Community</p>
-                </div>
-                <div class="col-lg-5 col-md-6 icon-box"> 
-                  <i class="fa fa-thumbs-up" style="margin-top: 30px;"></i>
-                  <p class="title">Promote Sustainable & Eco Friendly Alternatives</p>
-                </div>
-              </div>
-            </div>
-          </main>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 icon-box">
+            <i class="fa fa-globe"></i>
+            <p class="description">All plants of one bamboo species will develop 
+              flowers at the same time, no matter where they are located in the world.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 icon-box" style="text-align: center;">
+          <i class="fa fa-tree"></i>
+          <p class="description">Bamboo can survive over 120 years in the wild. </p>
         </div>
       </div>
+
     </div>
+  </main>
+</div>
+
+<!----------------------------------
+  WHY US
+----------------------------------->
+<section id="why_us" class="why_us"></section>  
+
+<div class="container">
+  <main id="main" style="margin-top: 150px;">
+
+    <div class="section-title">
+      <h2>Why Us</h2>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 icon-box">
+            <i class="fa fa-users"></i>
+            <p class="title">Empowering Community</p>
+          </div>
+          <div class="col-lg-6 col-md-6 icon-box"> 
+            <i class="fa fa-thumbs-up"></i>
+            <p class="title">Promote Sustainable & Eco Friendly Alternatives</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
   </body>
 
   <section id="bottom_text" class="">
@@ -317,8 +321,8 @@ CONTACT US
     
     <div class="footer-center">
 
-        <h3>Site Map</h3>
-        <div>
+        <div><h3>Site Map</h3></div>
+        
           <p class="footer-links">
             <a href="#products">Our Products</a>
           ·
@@ -330,9 +334,15 @@ CONTACT US
           ·
             <a href="#why_us">Why Us</a>
           </p>
-      </div>
 
-     
+        <div>
+          <p class="footer-company-name">North Borneo Bamboo &copy; 2020</p>
+        </div>
+        
+    </div>
+
+      
+
     <!--
       <div>
         <i class="fas fa-map-marked-alt"></i></div>
@@ -349,7 +359,7 @@ CONTACT US
         <i class="fas fa-envelope-open-text"></i></div>
         <p><a href="mailto:info@phisoft.my">info@phisoft.my</a></p>
     -->
-    </div>
+   
     
 
     <div class="footer-right">
@@ -358,8 +368,10 @@ CONTACT US
         <span>About the Company</span>
         The North Borneo Bamboo is a community project running in collaboration with the village in Sabah.
       </p>
-      
-      <p class="footer-company-name">North Borneo Bamboo &copy; 2020</p>
+
+      <p class="footer-company-about" style="margin-top: 30px; font-style: italic;">
+        As we do not accept charity, please show support by trading with us! We work 
+        hard to bring you 
     </div>
 
   </footer>
@@ -367,9 +379,10 @@ CONTACT US
 </section>
 
 <div>
-  <a href="https://wa.me/60128669695?text=I'm%20interested%20to%20get%20quotes%20" class="float" target="_blank">
+  <a href="https://wa.me/60128669695?text=I'm%20interested%20to%20get%20quotes%20" class="float" target="_blank" data-toggle="tooltip" data-placement="left" title="WhatsApp Us">
     <i class="fab fa-whatsapp my-float"></i>
   </a>
+  
 </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
