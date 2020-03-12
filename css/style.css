@@ -110,24 +110,6 @@ p.description {
 /*----------------------------------
   CAROUSEL
 -----------------------------------*/
-
-
-#carousel .container-carousel {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  font-weight: bold;
-  font-size: small;
-  width: 100%;
-}
-
 .carousel {
   display: block;
   height: auto;
@@ -464,7 +446,6 @@ p.description {
   color: #777;
 }
 
-
 h3.main {
   font-size: 18px;
   line-height: 1.5;
@@ -712,7 +693,6 @@ footer {
   margin-top: 50px;
   font-family: 'Fira Sans', sans-serif !important;
   letter-spacing: 1px;
-  text-align: center;
 }
 
 .footer-distributed .footer-center{
