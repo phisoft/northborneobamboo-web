@@ -44,9 +44,9 @@ section {
   color: #555;
   margin-bottom: 50px;
   margin-top: 30px !important;
-  border-bottom: 2px solid #87888b;
   letter-spacing: 5px !important;
   text-transform: uppercase;
+  border-bottom: dimgray 2px solid;
 }
 
 .section-closing p {
@@ -110,6 +110,23 @@ p.description {
 /*----------------------------------
   CAROUSEL
 -----------------------------------*/
+
+
+#carousel .container-carousel {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  width: 100%;
+}
 
 .carousel {
   display: block;
@@ -177,7 +194,6 @@ p.description {
   background-position: top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -80px;
   width: 100%;
   margin-top: 0px !important;
 }
@@ -444,9 +460,10 @@ p.description {
   ABOUT US
 -----------------------------------*/
 
-.about {
+#about {
   color: #777;
 }
+
 
 h3.main {
   font-size: 18px;
@@ -591,6 +608,16 @@ WHY US
 
 .why_us {
   padding: 0 !important;
+}
+
+.why_comm{
+  width:200px;
+  height: 150px;
+}
+
+.why_eco{
+  width: 150px;
+  height: 150px;
 }
 
 p.title {
