@@ -452,7 +452,11 @@ p.description {
 #about {
   color: whitesmoke;
   background-image: url('../images/welcome.jpg');
-  opacity: 90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 95%;
 }
 
 #about:hover {
