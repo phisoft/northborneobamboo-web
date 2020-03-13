@@ -599,11 +599,14 @@ INTERESTING FACT
   border-bottom: dimgray 2px solid;
 }
 
-.fa-globe, .fa-tree, .fa-users, .fa-thumbs-up {
-  font-size: 40px !important; 
-  color: rgb(45, 114, 45); 
-  margin-bottom: 30px;
-  text-align: center !important;
+.fa-users, .fa-thumbs-up  {
+  font-size: 50px !important; 
+  color: rgb(255, 255, 255);
+  background: rgb(65, 63, 63);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
 }
 
 p.description {
@@ -714,9 +717,9 @@ font-size: 18px !important;
 
 @media screen and (min-width:768px) {
 
-.fa-thumbs-up {
-  margin-top: 0 !important;
-}
+  .fa-thumbs-up {
+    margin-top: 0 !important;
+  }
 }
 
 h5 {
@@ -728,6 +731,11 @@ border-bottom: 2px solid #87888b;
 margin: 10px 10px 10px 10px;
 font-size: 20px !important; 
 color: rgb(45, 114, 45);
+}
+
+mark {
+  background-color: grey !important;
+  color: white !important;
 }
 
 /*----------------------------------
