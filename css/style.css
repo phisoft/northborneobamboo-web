@@ -596,7 +596,7 @@ INTERESTING FACT
 
 #fact h2 {
   color: whitesmoke !important;
-  border-bottom: rgb(255, 255, 255) 2px solid;
+  border-bottom: dimgray 2px solid;
 }
 
 .fa-globe, .fa-tree, .fa-users, .fa-thumbs-up {
@@ -615,59 +615,69 @@ p.description {
 .wrapper {
   width: 60%;
   text-align: center;
-  }
-  .polaroid {
+}
+  
+.polaroid {
   background: #fff;
   padding: 1rem;
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
   -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
   box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  }
-  .polaroid > img{
+}
+  
+.polaroid > img{
   max-width: 100%;
   height: auto;
-  }
-  .caption {
+}
+  
+.caption {
   font-size: 18px;
   text-align: center;
   line-height: 2em;
-  }
-  .item .polaroid:before {
+}
+  
+.item .polaroid:before {
   content: '';
   position: absolute;
   z-index: -1;
   transition: all 0.40s;
-  }
-  .item:nth-of-type(2n+1) {
+}
+  
+.item:nth-of-type(2n+1) {
   transform: scale(0.8, 0.8) rotate(5deg);
   transition: all 0.35s;
-  }
-  .item:nth-of-type(2n+1) .polaroid:before {
+}
+  
+.item:nth-of-type(2n+1) .polaroid:before {
   transform: rotate(6deg);
   height: 20%;
   width: 47%;
   bottom: 30px;
   right: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
-  }
-  .item:nth-of-type(2n+2) {
+}
+  
+.item:nth-of-type(2n+2) {
   transform: scale(0.8, 0.8) rotate(-5deg);
   transition: all 0.35s;
-  }
-  .item:nth-of-type(2n+2) .polaroid:before {
+}
+  
+.item:nth-of-type(2n+2) .polaroid:before {
   transform: rotate(-6deg);
   height: 20%;
   width: 47%;
   bottom: 30px;
   left: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
-  }
-  .item:hover {
+}
+  
+.item:hover {
   filter: none;
   transform: scale(1, 1) rotate(0deg);
   transition: all 0.40s;
-  }
-  .item:hover .polaroid:before {
+}
+  
+.item:hover .polaroid:before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -678,7 +688,7 @@ p.description {
   right: 10%;
   box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
   transition: all 0.35s;
-  }
+}
 
 /*----------------------------------
 WHY US
