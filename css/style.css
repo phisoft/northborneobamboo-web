@@ -563,6 +563,12 @@ h4.title:hover {
   font-size: 18px;
 }
 
+.card-text {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
 /*----------------------------------
   QUOTE
 -----------------------------------*/
@@ -792,7 +798,7 @@ footer {
 }
 
 .footer-distributed .footer-center{
-  width: 40%;
+  width: 45%;
 }
 
 .footer-distributed .footer-center h3{
@@ -816,40 +822,6 @@ footer {
   margin-bottom: 20px;
   font-family: 'Fira Sans', sans-serif !important;
 }
-
-
- /*
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
- 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
- 
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
- 
-.footer-distributed .footer-center p a{
-	color:  #cdd5e4;
-  text-decoration: none;
-}
-*/
  
 .footer-distributed .footer-right{
 	width: 30%;
