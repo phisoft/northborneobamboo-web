@@ -600,16 +600,6 @@ INTERESTING FACT
   border-bottom: dimgray 2px solid;
 }
 
-.fa-users, .fa-thumbs-up  {
-  font-size: 50px !important; 
-  color: rgb(255, 255, 255);
-  background: rgb(65, 63, 63);
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  display: inline-block;
-}
-
 p.description {
   margin-bottom: 30px;
   margin-right: 0 !important;
@@ -699,39 +689,17 @@ WHY US
 -----------------------------------*/
 
 .why_us {
-padding: 0 !important;
-}
-
-.why_comm{
-width:200px;
-height: 150px;
-}
-
-.why_eco{
-width: 150px;
-height: 150px;
+  padding: 0 !important;
 }
 
 p.title {
-font-size: 18px !important;
-}
-
-@media screen and (min-width:768px) {
-
-  .fa-thumbs-up {
-    margin-top: 0 !important;
-  }
+  font-size: 18px !important;
+  margin-top: 10px;
 }
 
 h5 {
-border-top: 2px solid #87888b;
-border-bottom: 2px solid #87888b;
-}
-
-.fa-home {
-margin: 10px 10px 10px 10px;
-font-size: 20px !important; 
-color: rgb(45, 114, 45);
+  border-top: 2px solid #87888b;
+  border-bottom: 2px solid #87888b;
 }
 
 mark {
@@ -739,11 +707,23 @@ mark {
   color: white !important;
 }
 
+
+.fa-users, .fa-thumbs-up  {
+  font-size: 50px !important; 
+  color: rgb(255, 255, 255);
+  background: rgb(65, 63, 63);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  padding: 10px;
+}
+
 /*----------------------------------
 BOTTOM
 -----------------------------------*/
 bot {
-background: url('../images/back2.jpg');
+  background: url('../images/back2.jpg');
 }
 
 /*----------------------------------
